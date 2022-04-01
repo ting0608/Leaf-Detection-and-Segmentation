@@ -4,7 +4,7 @@ Image-based segmentation is now a cultivate and flourishing area for either imag
 Our project aim to develop a software solution with MATLAB and its image processing toolbox to process a real leaf image. The coded software solution should be able to detect and segmenting leaves of several given example plants’ images. The result image should be in a black background with the leaf random colours coded at every instance.
 
 
-# 2.
+# 2. Setup to use
 The program can be run by putting in source image, and changing the path name
 
 % Image database
