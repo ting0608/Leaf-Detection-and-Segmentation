@@ -27,3 +27,4 @@ img1           = imread('**plant001.png**');
 The largest problem that I faced was on the 3rd image, plant003.png. It was because 3rd image have a numbers of shadow area, which those shadow area will make the label2rgb function not accurate as the automated code will assume it was black background. 
 
 # 5.2 Further improvement
+For the future people who trying on those similar tasks, I guess the best way to fix this shadow region problem is using region growing, which you give the image a seed point and thresholding it (typically intensity/distance).
